@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <title>IATA Certificate Validation</title>
 
@@ -7,23 +8,100 @@
 
 body{
 margin:0;
-padding:0;
-background:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+background:#e6e6e6;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 }
 
-img{
-width:100%;
-height:auto;
-display:block;
+.card{
+width:650px;
+background:white;
+box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.header{
+padding:25px;
+border-top:6px solid #f1b400;
+}
+
+.logo{
+font-weight:bold;
+color:#2b5cb8;
+font-size:22px;
+}
+
+.success{
+background:#2f9a3a;
+color:white;
+text-align:center;
+padding:10px;
+font-weight:bold;
+}
+
+.title{
+padding:25px;
+color:#1f3ec9;
+font-size:22px;
+font-weight:bold;
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+padding:15px 25px;
+border-top:1px solid #ddd;
+}
+
+.footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+font-size:12px;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<img src="IATA.png">
+<div class="card">
+
+<div class="header">
+<span class="logo">IATA Training</span>
+</div>
+
+<div class="success">
+VALIDATION SUCCESSFUL
+</div>
+
+<div class="title">
+Foundation in Travel and Tourism with Amadeus Diploma
+</div>
+
+<div class="row">
+<span>FIRST NAME</span>
+<span>Md Israil</span>
+</div>
+
+<div class="row">
+<span>LAST NAME</span>
+<span>*</span>
+</div>
+
+<div class="row">
+<span>COMPLETION DATE</span>
+<span>Aug 10, 2023</span>
+</div>
+
+<div class="footer">
+© International Air Transport Association (IATA) 2026. All rights reserved.
+</div>
+
+</div>
 
 </body>
 </html>
